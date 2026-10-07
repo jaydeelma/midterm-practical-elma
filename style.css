@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #1f3a5f;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+.welcome {
+    text-align: center;
+    background-color: #eaf0f6;
+    padding: 60px 20px;
+}
+
+.welcome h2 {
+    color: #1f3a5f;
+    font-size: 30px;
+}
+
+.welcome p {
+    margin-bottom: 25px;
+}
+
+
+button {
+    background-color: #1f3a5f;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #162a45;
+}
+
+#properties {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#properties h2 {
+    color: #1f3a5f;
+}
+
+
+.property-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.property {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.property h3 {
+    color: #1f3a5f;
+}
+
+.property h4 {
+    font-size: 20px;
+}
+
+
+#about {
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#contact {
+    background-color: #eaf0f6;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
